@@ -1,1 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nosotros - Betta 3D Maker</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f6f9;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
 
+    nav {
+      background: #ffffff;
+      padding: 15px 30px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+      display: flex;
+      justify-content: center;
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      gap: 25px;
+    }
+
+    .nav-link {
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+      position: relative;
+      padding-bottom: 6px;
+    }
+
+    .nav-link::after {
+      content: '';
+      position: absolute;
+      width: 0%;
+      height: 3px;
+      bottom: 0;
+      left: 0;
+      background-color: #0077ff;
+      transition: width 0.3s ease-in-out;
+    }
+
+    .nav-link:hover::after, .nav-link.active::after {
+      width: 100%;
+    }
+
+    header {
+      background: #ffffff;
+      padding: 40px 20px;
+      text-align: center;
+      border-bottom: 1px solid #e0e0e0;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
+
+    .content-box {
+      background: #ffffff;
+      padding: 30px;
+      border-radius: 12px;
+      border: 1px solid #e2e8f0;
+      line-height: 1.6;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      font-size: 0.85rem;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <ul>
+      <li><a href="index.html" class="nav-link">Inicio</a></li>
+      <li><a href="nosotros.html" class="nav-link active">Nosotros</a></li>
+      <li><a href="servicios.html" class="nav-link">Servicios</a></li>
+      <li><a href="contacto.html" class="nav-link">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <header>
+    <h1>Sobre Betta 3D Maker</h1>
+    <p>Innovación, diseño y fabricación digital a tu alcance.</p>
+  </header>
+
+  <div class="container">
+    <div class="content-box">
+      <h2>¿Quiénes Somos?</h2>
+      <p>En <strong>Betta 3D Maker</strong> nos dedicamos al diseño 3D, prototipado y fabricación aditiva de modelos personalizados. Transformamos ideas y conceptos digitales en piezas físicas de alta precisión.</p>
+      
+      <h2>Nuestra Misión</h2>
+      <p>Ofrecer soluciones eficientes de impresión y diseño en tres dimensiones para proyectos personales, empresariales, arquitectónicos y figuras coleccionables, utilizando materiales de primera calidad.</p>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2026 Betta 3D Maker. Todos los derechos reservados.</p>
+  </footer>
+
+</body>
+</html>
